@@ -1,0 +1,15 @@
+.container {
+    background-color: rgb(43, 61, 110);
+    margin-top: 10%;
+}
+
+
+.jumbotron {
+    background-color: rgb(147, 146, 170);
+    padding-left: 28%;
+    position: relative;
+}
+
+textarea {
+    text-align: center;
+}
