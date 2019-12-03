@@ -1,4 +1,21 @@
-const confNumbers = confirm(Would you like numbers in your password?);
+const finalPassword = document.getElementById('password');
+
+const confNumbers = confirm('Would you like numbers in your password?');
+const confSymbols = confirm('Would you like symbols in your password?');
+const confLowerLetter = confirm('Would you like lower case letters in your password?');
+const confUpperLetter = confirm('Would you like upper case letters?');
+const pwLength = prompt('How long would you like password to be? Must be between 8 and 128 characters.');
+
+
+
+function 
+
+
+
+
+
+
+    console.log(confNumbers);
 
 
 
@@ -33,5 +50,9 @@ function getNumbers() {
 function getSymbols() {
     return String.fromCharCode(Math.floor(Math.random() * 15) + 33);
 }
+
+
+
+console.log(lowerCaseLetter())
 
 
