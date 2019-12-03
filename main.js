@@ -1,3 +1,23 @@
+const confNumbers = confirm(Would you like numbers in your password?);
+
+
+
+
+
+
+
+
+
+
+
+const randomPassword = {
+    lower: lowerCaseLetter,
+    upper: upperCaseLetter,
+    numbers: getNumbers,
+    symbols: getSymbols
+
+};
+
 function lowerCaseLetter() {
     return String.fromCharCode(Math.floor(Math.random() * 26) + 97);
 }
@@ -13,4 +33,5 @@ function getNumbers() {
 function getSymbols() {
     return String.fromCharCode(Math.floor(Math.random() * 15) + 33);
 }
-console.log(getSymbols());
+
+
