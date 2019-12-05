@@ -37,3 +37,8 @@ body {
     width: 400px;
     height: 100px;
 }
+
+#password {
+    font-size: xx-large;
+    text-align: center;
+}
