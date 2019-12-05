@@ -16,7 +16,7 @@ body {
 
 .container {
     background-color: rgb(43, 61, 110);
-    width: 800px;
+    width: 100%;
     max-width: 80%;
     border-radius: 5px;
     align-items: center;
@@ -34,8 +34,8 @@ body {
 }
 
 .passwordArea #password {
-    width: 400px;
-    height: 100px;
+    width: 20vw;
+    height: 10vh;
 }
 
 #password {
